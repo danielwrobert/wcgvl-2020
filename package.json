@@ -1,0 +1,23 @@
+{
+  "name": "wcgvl-2019",
+  "version": "1.0.0",
+  "description": "Styles for the WordCamp Greenville 2019 website. A child theme of [Campsite 2017](https://github.com/2ndkauboy/campsite-2017). Styles forked from the [WordCamp Boston 2018](http://2018.boston.wordcamp.org) website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielwrobert/wcgvl-2019.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielwrobert/wcgvl-2019/issues"
+  },
+  "homepage": "https://github.com/danielwrobert/wcgvl-2019#readme",
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
+}
