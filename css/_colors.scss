@@ -1,0 +1,19 @@
+/* Color Pallete */
+
+// Apparently, custom properties are not supported in RemoteCSS :(
+// :root {
+// 	--color-white: #fff;
+// 	--color-black: #000;
+// 	--color-text: #3c4595;
+// 	--color-accent: #00a99d;
+// 	--color-accent-alt: #10a968;
+// }
+
+$color-white: #fff;
+$color-white-alt: #fefefe;
+$color-black: #000;
+$color-text: #3c4595;
+$color-accent: #00a99d;
+$color-accent-light: #89dfee;
+$color-accent-mid: #10a968;
+$color-accent-dark: #1c7a99;
