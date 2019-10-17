@@ -332,13 +332,19 @@ a.cta-button:focus {
   position: relative;
   z-index: 1;
   background: #fff;
-  background: rgba(255, 255, 255, 0.85);
 }
 
 .page-navigation-container .menu-primary-nav-container {
   margin: 0 auto;
   max-width: 1160px;
   position: relative;
+}
+
+.page-navigation-container .current-menu-item {
+  border-bottom: 7px solid #3c99de;
+}
+.page-navigation-container .current-menu-item a {
+  color: #3c99de;
 }
 
 .page-navigation-container a {
