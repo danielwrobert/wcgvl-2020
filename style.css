@@ -858,6 +858,7 @@ a.cta-button:focus {
 }
 
 .site-main {
+  background-color: #fff;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -872,14 +873,11 @@ a.cta-button:focus {
 }
 
 .site-main .hentry {
-  background-color: #fefefe;
-  padding: 50px;
-  border-top: 5px solid #2d7ac3;
-  box-shadow: 0px 5px 30px 0px rgba(28, 57, 96, 0.1);
+  padding: 0 50px 60px;
 }
 
-.hentry + .hentry {
-  margin-top: 60px;
+.hentry {
+  margin: 0;
 }
 
 .page-header {
@@ -888,6 +886,11 @@ a.cta-button:focus {
 
 .page-title {
   margin-bottom: 10px;
+}
+
+.entry-header {
+  border-top: 1px solid #e2f4ff;
+  text-align: center;
 }
 
 .entry-header,
@@ -913,7 +916,6 @@ body.single .entry-footer .byline {
 }
 
 .entry-title {
-  margin-top: 0;
   margin-bottom: 20px;
   color: #2d7ac3;
   font-weight: 900;

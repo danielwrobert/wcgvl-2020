@@ -793,7 +793,9 @@ a.cta-button:focus {
 	background-size: 15%;
 }
 .site-main {
+	background-color: $color-white;
 	max-width: 900px;
+	// max-width: 1170px;
 	margin: 0 auto;
 }
 .site-footer {
@@ -809,15 +811,16 @@ a.cta-button:focus {
 }
 
 .site-main .hentry {
-	background-color: $color-white-alt;
-	padding: 50px;
-	border-top: 5px solid $color-accent;
-	box-shadow: 0px 5px 30px 0px rgba(28, 57, 96, 0.1);
+	padding: 0 50px 60px;
 }
 
-.hentry + .hentry {
-	margin-top: 60px;
+.hentry {
+	margin: 0;
 }
+
+// .hentry + .hentry {
+// 	margin-top: 60px;
+// }
 
 .page-header {
 	margin: 40px auto 20px;
@@ -827,6 +830,10 @@ a.cta-button:focus {
 	margin-bottom: 10px;
 }
 
+.entry-header {
+	border-top: 1px solid $color-accent-light;
+	text-align: center;
+}
 .entry-header,
 .entry-footer {
 	font-size: 16px;
@@ -847,7 +854,7 @@ body.single .entry-footer .byline {
 }
 
 .entry-title {
-	margin-top: 0;
+	// margin-top: 0;
 	margin-bottom: 20px;
 	color: $color-accent;
 	font-weight: 900;
