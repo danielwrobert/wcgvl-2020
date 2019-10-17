@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  color: #3c4595;
+  color: #272c52;
   font-family: "proxima-nova", sans-serif;
   font-size: 20px;
   font-size: 2rem;
@@ -47,7 +47,7 @@ hr {
   height: 2px;
   max-width: 66%;
   border-bottom: 0;
-  background-color: #00a99d;
+  background-color: #2d7ac3;
 }
 
 p {
@@ -68,7 +68,7 @@ img {
 
 a,
 a:visited {
-  color: #00a99d;
+  color: #2d7ac3;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ a:focus,
 a:visited:hover,
 a:visited:active,
 a:visited:focus {
-  color: #00a99d;
+  color: #2d7ac3;
   text-decoration: underline;
 }
 
@@ -121,7 +121,7 @@ textarea {
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 1;
-  color: #3c4595;
+  color: #272c52;
   background: #fff;
   border: 1px solid #c9ccdd;
   border-radius: 2px;
@@ -238,7 +238,7 @@ a.cta-button {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background: #00a99d;
+  background: #2d7ac3;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -272,7 +272,7 @@ input[type=submit]:focus,
 input[type=reset]:focus,
 button:focus,
 a.cta-button:focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 .entry-content .wp-block-button__link {
@@ -285,7 +285,7 @@ a.cta-button:focus {
   text-decoration: none;
   color: #fff;
   border-radius: 50px;
-  background: #10a968;
+  background: #115591;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -303,14 +303,14 @@ a.cta-button:focus {
 }
 
 .entry-content .wp-block-button__link:focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 .entry-content .wp-block-button__link:hover,
 .entry-content .wp-block-button__link:active,
 .entry-content .wp-block-button__link:focus {
   color: #fff;
-  background: #10a968;
+  background: #115591;
 }
 
 .wp-caption {
@@ -343,7 +343,7 @@ a.cta-button:focus {
 
 .page-navigation-container a {
   padding: 30px 20px;
-  color: #3c4595;
+  color: #272c52;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: bold;
@@ -357,7 +357,7 @@ a.cta-button:focus {
 
 .page-navigation-container li:hover a,
 .page-navigation-container li.focus a {
-  color: #3c4595;
+  color: #272c52;
   text-decoration: none;
 }
 
@@ -375,7 +375,7 @@ a.cta-button:focus {
 
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
-  color: #3c4595;
+  color: #272c52;
   margin-left: -15px;
 }
 
@@ -390,7 +390,7 @@ a.cta-button:focus {
 .page-navigation-container .callout {
   position: absolute;
   right: 0;
-  background: #3c4595;
+  background: #272c52;
 }
 
 .page-navigation-container .callout a {
@@ -399,12 +399,12 @@ a.cta-button:focus {
 
 .page-navigation-container .callout:hover,
 .page-navigation-container .callout.focus {
-  background: #00a99d;
+  background: #2d7ac3;
 }
 
 .page-navigation-container .callout:hover a,
 .page-navigation-container .callout.focus a {
-  color: #3c4595;
+  color: #272c52;
 }
 
 #site-navigation {
@@ -412,7 +412,7 @@ a.cta-button:focus {
 }
 
 .js .menu-toggle {
-  color: #00a99d;
+  color: #2d7ac3;
   width: 100%;
   position: relative;
 }
@@ -447,7 +447,7 @@ a.cta-button:focus {
 
   .page-navigation-container a:focus {
     background: #fff;
-    color: #3c4595 !important;
+    color: #272c52 !important;
   }
 
   .page-navigation-container a {
@@ -471,25 +471,26 @@ a.cta-button:focus {
   .page-navigation-container .callout {
     position: static;
     width: 100%;
-    background: #10a968;
+    background: #115591;
   }
 
   .page-navigation-container .callout a {
-    color: #3c4595;
+    color: #272c52;
   }
 }
 .custom-header {
-  background: transparent url("https://2019.greenville.wordcamp.org/files/2018/12/banner-bg-resized.png") center center no-repeat;
+  background: transparent url("https://2020.greenville.wordcamp.org/files/2019/10/skyline.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
+  height: 415px;
 }
 
 .custom-header .wp-custom-header,
 .custom-header .custom-logo-link {
   display: block;
   margin: 0 auto;
-  padding: 200px 0 285px;
-  max-width: 700px;
+  max-width: 300px;
+  padding-top: 150px;
 }
 
 @media screen and (max-width: 37.5em) {
@@ -537,7 +538,7 @@ a.cta-button:focus {
   line-height: 1.1;
   font-family: "freight-sans-condensed-pro", sans-serif;
   font-weight: 900;
-  color: #3c4595;
+  color: #272c52;
 }
 
 #content-widget-1 .level-2 {
@@ -556,8 +557,8 @@ a.cta-button:focus {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
-  color: #3c4595;
-  background-color: #00a99d;
+  color: #272c52;
+  background-color: #2d7ac3;
 }
 
 #content-widget-1 .button:hover,
@@ -568,7 +569,7 @@ a.cta-button:focus {
 }
 
 #content-widget-1 .button:focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 #content-widget-1 .button.span-2 {
@@ -582,8 +583,8 @@ a.cta-button:focus {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
-  color: #3c4595;
-  background: #10a968;
+  color: #272c52;
+  background: #115591;
 }
 
 #content-widget-1 .button:nth-of-type(2):hover,
@@ -594,7 +595,7 @@ a.cta-button:focus {
 }
 
 #content-widget-1 .button:nth-of-type(2):focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 #content-widget-1 .button:nth-of-type(3) {
@@ -604,8 +605,8 @@ a.cta-button:focus {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
-  color: #3c4595;
-  background: #00a99d;
+  color: #272c52;
+  background: #2d7ac3;
 }
 
 #content-widget-1 .button:nth-of-type(3):hover,
@@ -616,7 +617,7 @@ a.cta-button:focus {
 }
 
 #content-widget-1 .button:nth-of-type(3):focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 @media screen and (max-width: 800px) {
@@ -656,7 +657,7 @@ a.cta-button:focus {
   -webkit-transform: rotate(-2deg);
   transform: rotate(-2deg);
   position: relative;
-  background: #3c4595;
+  background: #272c52;
 }
 
 #primary-sidebar .widget_custom_html:before,
@@ -671,14 +672,14 @@ a.cta-button:focus {
 }
 
 #primary-sidebar .widget_custom_html:before {
-  background: #3c4595;
+  background: #272c52;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
 #primary-sidebar .widget_custom_html:after {
   z-index: -2;
-  background: #10a968;
+  background: #115591;
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
 }
@@ -718,7 +719,7 @@ a.cta-button:focus {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
-  color: #3c4595;
+  color: #272c52;
   background: #fff;
   font-size: 16px;
   font-size: 1.6rem;
@@ -737,7 +738,7 @@ a.cta-button:focus {
 }
 
 #primary-sidebar .custom-html-widget a:focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 #primary-sidebar .custom-html-widget a:hover,
@@ -748,8 +749,8 @@ a.cta-button:focus {
 }
 
 #primary-sidebar .custom-html-widget a:focus {
-  -webkit-box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 4px #3c4595;
-  box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 4px #3c4595;
+  -webkit-box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 4px #272c52;
+  box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 4px #272c52;
 }
 
 @media screen and (max-width: 800px) {
@@ -846,15 +847,14 @@ a.cta-button:focus {
   width: 100%;
   height: 100%;
   grid-column-start: 2;
-  background: #3c4595;
+  background: #272c52;
   max-width: 50%;
   margin: 20px auto 0;
 }
 
 .site-content {
-  background: transparent url("https://2019.greenville.wordcamp.org/files/2019/01/content-bg.png") right 20% no-repeat;
-  background-size: contain;
-  margin: 65px 0;
+  background: #e2f4ff url("https://2020.greenville.wordcamp.org/files/2019/10/Digital-on-Light-Blue.png") right top no-repeat;
+  background-size: 15%;
 }
 
 .site-main {
@@ -863,15 +863,18 @@ a.cta-button:focus {
 }
 
 .site-footer {
-  background: transparent url("https://2019.greenville.wordcamp.org/files/2019/01/footer-bg.png") center bottom no-repeat;
+  background: #272c52 url("https://2020.greenville.wordcamp.org/files/2019/10/skyline.jpg") center -70px no-repeat;
   background-size: cover;
-  padding-top: 150px;
+  border-top: 11px solid #3c99de;
+  height: 425px;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-main .hentry {
   background-color: #fefefe;
   padding: 50px;
-  border-top: 5px solid #00a99d;
+  border-top: 5px solid #2d7ac3;
   box-shadow: 0px 5px 30px 0px rgba(28, 57, 96, 0.1);
 }
 
@@ -912,7 +915,7 @@ body.single .entry-footer .byline {
 .entry-title {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #00a99d;
+  color: #2d7ac3;
   font-weight: 900;
   line-height: 1.1;
 }
@@ -926,21 +929,21 @@ body.single .entry-footer .byline {
 }
 
 .post-navigation {
-  border-top: 1px solid #89dfee;
-  border-bottom: 1px solid #89dfee;
+  border-top: 1px solid #e2f4ff;
+  border-bottom: 1px solid #e2f4ff;
   padding: 10px 0;
   font-size: 16px;
   font-size: 1.6rem;
 }
 
 .post-navigation a {
-  color: #3c4595;
+  color: #272c52;
 }
 
 .post-navigation a:hover,
 .post-navigation a:active,
 .post-navigation a:focus {
-  color: #3c4595;
+  color: #272c52;
 }
 
 .post-navigation .nav-previous:before {
@@ -967,15 +970,15 @@ body.home:not(.blog) .entry-content > * {
 }
 
 body.home:not(.blog) .invert-color {
-  background: #00a99d;
-  background: linear-gradient(to right, #00a99d, #1c7a99);
+  background: #2d7ac3;
+  background: linear-gradient(to right, #2d7ac3, #272c52);
   padding: 50px;
   margin: 25px 0 50px;
   color: #fff;
 }
 
 body.home:not(.blog) .invert-color .wp-block-button__link {
-  background-color: #3c4595;
+  background-color: #272c52;
 }
 
 body.home:not(.blog) .entry-content .wp-block-button__link {
@@ -984,7 +987,7 @@ body.home:not(.blog) .entry-content .wp-block-button__link {
 }
 
 body.home:not(.blog) .header-light {
-  color: #00a99d;
+  color: #2d7ac3;
 }
 
 body.home:not(.blog) .button-columns .wp-block-column:first-of-type {
@@ -1070,7 +1073,7 @@ body.error404 .search-form input {
 
 .contact-form .grunion-field-label span {
   margin-left: 10px;
-  color: #3c4595;
+  color: #272c52;
 }
 
 .wcorg-organizers .wcorg-organizer {
@@ -1086,8 +1089,8 @@ body.error404 .search-form input {
   float: left;
   margin-right: 30px;
   border-radius: 50%;
-  -webkit-box-shadow: 7px 7px 0 #3c4595, -7px -7px 0 #3c4595;
-  box-shadow: 7px 7px 0 #3c4595, -7px -7px 0 #3c4595;
+  -webkit-box-shadow: 7px 7px 0 #272c52, -7px -7px 0 #272c52;
+  box-shadow: 7px 7px 0 #272c52, -7px -7px 0 #272c52;
 }
 
 .tix_tickets_table .tix-column-description,
@@ -1131,7 +1134,7 @@ body.error404 .search-form input {
 
 .tix-order-summary th {
   padding-bottom: 10px;
-  border-bottom: 2px solid #89dfee;
+  border-bottom: 2px solid #e2f4ff;
 }
 
 #tix {
@@ -1233,13 +1236,13 @@ body.page-slug-schedule .site-main {
 
 .wcpt-schedule {
   margin-bottom: 60px;
-  border-bottom: 2px solid #00a99d;
+  border-bottom: 2px solid #2d7ac3;
 }
 
 .wcpt-schedule th {
   padding: 20px 15px 5px;
-  border-bottom: 2px solid #00a99d;
-  color: #3c4595;
+  border-bottom: 2px solid #2d7ac3;
+  color: #272c52;
   font-weight: 900;
   text-align: left;
 }
@@ -1250,7 +1253,7 @@ body.page-slug-schedule .site-main {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 20px 15px;
-  border: 2px solid #00a99d;
+  border: 2px solid #2d7ac3;
   border-bottom: none;
 }
 
@@ -1280,7 +1283,7 @@ body.page-slug-schedule .site-main {
 }
 
 .wcpt-schedule td.wcpt-session-empty:last-of-type {
-  border-right: 2px solid #00a99d;
+  border-right: 2px solid #2d7ac3;
 }
 
 .wcpt-schedule td.wcb-favourite-session {
@@ -1288,11 +1291,11 @@ body.page-slug-schedule .site-main {
 }
 
 .wcpt-schedule td.wcb-favourite-session a.fav-session-button {
-  color: #3c4595;
+  color: #272c52;
 }
 
 .wcpt-schedule td div.wcb-session-favourite-icon a.fav-session-button:hover {
-  color: #3c4595 !important;
+  color: #272c52 !important;
 }
 
 .wcpt-schedule .global-session td:not(.wcpt-time) {
@@ -1310,7 +1313,7 @@ body.page-slug-schedule .site-main {
 }
 
 .wcpt-schedule .wcpt-session-speakers a {
-  color: #3c4595;
+  color: #272c52;
 }
 
 .wcpt-schedule .wcpt-session-type-custom {
@@ -1336,7 +1339,7 @@ body.page-slug-schedule .site-main {
 
   .wcpt-schedule tr {
     border: none;
-    border-bottom: 2px solid #00a99d;
+    border-bottom: 2px solid #2d7ac3;
   }
 
   .wcpt-schedule td.wcpt-session-empty {
@@ -1359,7 +1362,7 @@ body.page-slug-schedule .site-main {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
-  color: #3c4595;
+  color: #272c52;
   border: none;
   background: rgba(0, 169, 157, 0.4);
   text-align: center;
@@ -1582,8 +1585,8 @@ body.page-slug-attendees .site-main {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 5px 0 #10a968, -5px -5px 0 #3c4595;
-  box-shadow: 5px 5px 0 #10a968, -5px -5px 0 #3c4595;
+  -webkit-box-shadow: 5px 5px 0 #115591, -5px -5px 0 #272c52;
+  box-shadow: 5px 5px 0 #115591, -5px -5px 0 #272c52;
   margin-bottom: 15px;
 }
 
@@ -1676,7 +1679,7 @@ body.page-template-page-day-of .site-main {
 body.page-template-page-day-of .entry-content h2 {
   font-size: 56px;
   font-size: 5.6rem;
-  color: #3c4595;
+  color: #272c52;
 }
 
 body.page-template-page-day-of .entry-content h3 {
@@ -1734,8 +1737,8 @@ body.page-template-page-day-of .entry-content h3 {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
-  color: #3c4595;
-  background: #00a99d;
+  color: #272c52;
+  background: #2d7ac3;
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold;
@@ -1753,7 +1756,7 @@ body.page-template-page-day-of .entry-content h3 {
 }
 
 .comment-list .comment-reply-link:focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 .comment-list .thread-even .comment-reply-link {
@@ -1763,8 +1766,8 @@ body.page-template-page-day-of .entry-content h3 {
   font-weight: 900;
   text-align: center;
   text-decoration: none;
-  color: #3c4595;
-  background: #00a99d;
+  color: #272c52;
+  background: #2d7ac3;
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold;
@@ -1782,7 +1785,7 @@ body.page-template-page-day-of .entry-content h3 {
 }
 
 .comment-list .thread-even .comment-reply-link:focus {
-  outline: 2px solid #3c4595;
+  outline: 2px solid #272c52;
 }
 
 .comment-form {
@@ -1792,10 +1795,12 @@ body.page-template-page-day-of .entry-content h3 {
 .site-info {
   font-size: 16px;
   font-size: 1.6rem;
-  padding: 30px 0 20px;
-  background: rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  background: #272c52;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
 }
 
 .site-info a {
@@ -1808,12 +1813,6 @@ body.page-template-page-day-of .entry-content h3 {
 .site-info a:focus {
   color: #fff;
   text-decoration: underline;
-}
-
-.site-info .site-info-generator:after {
-  display: block;
-  content: "";
-  height: 16px;
 }
 
 .site-info span[role=separator] {
