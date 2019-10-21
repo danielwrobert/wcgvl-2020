@@ -22,7 +22,7 @@ body {
   font-family: "proxima-nova", sans-serif;
   font-size: 20px;
   font-size: 2rem;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 button,
@@ -39,7 +39,9 @@ h4,
 h5,
 h6 {
   clear: none;
+  color: #115591;
   font-family: "freight-sans-condensed-pro", sans-serif;
+  line-height: 1.2;
 }
 
 .wp-block-separator,
@@ -83,30 +85,37 @@ a:visited:focus {
 }
 
 .entry-title {
-  font-size: 56px;
-  font-size: 5.6rem;
+  font-size: 4rem;
 }
 
-.entry-content h1,
-.entry-content h2 {
-  margin: 30px 0 15px;
-  line-height: 1.32143;
-}
-
+h1,
 .entry-content h1 {
-  font-size: 56px;
-  font-size: 5.6rem;
+  font-size: 4rem;
 }
 
+h2,
 .entry-content h2 {
-  font-size: 42px;
-  font-size: 4.2rem;
+  font-size: 3.6rem;
 }
 
+h3,
 .entry-content h3 {
-  font-size: 28px;
-  font-size: 2.8rem;
-  line-height: 1.2;
+  font-size: 3.3rem;
+}
+
+h4,
+.entry-content h4 {
+  font-size: 3.1rem;
+}
+
+h5,
+.entry-content h5 {
+  font-size: 2.9rem;
+}
+
+h6,
+.entry-content h6 {
+  font-size: 2.7rem;
 }
 
 input[type=text],
@@ -340,8 +349,10 @@ a.cta-button:focus {
   position: relative;
 }
 
-.page-navigation-container .current-menu-item {
-  border-bottom: 7px solid #3c99de;
+@media screen and (min-width: 37.5em) {
+  .page-navigation-container .current-menu-item {
+    border-bottom: 7px solid #3c99de;
+  }
 }
 .page-navigation-container .current-menu-item a {
   color: #3c99de;
@@ -365,6 +376,49 @@ a.cta-button:focus {
 .page-navigation-container li.focus a {
   color: #272c52;
   text-decoration: none;
+}
+
+.page-navigation-container.toggled-on ul {
+  padding: 15px 10px 10px;
+}
+
+@media screen and (min-width: 37.5em) {
+  .page-navigation-container ul {
+    display: flex;
+  }
+}
+.page-navigation-container ul li:first-child {
+  position: relative;
+}
+@media screen and (min-width: 37.5em) {
+  .page-navigation-container ul li:first-child {
+    margin-right: auto;
+  }
+}
+.page-navigation-container ul li:first-child a,
+.page-navigation-container ul li:first-child a:link,
+.page-navigation-container ul li:first-child a:hover,
+.page-navigation-container ul li:first-child a:active,
+.page-navigation-container ul li:first-child a:focus,
+.page-navigation-container ul li:first-child a:visited,
+.page-navigation-container ul li:first-child a:visited:hover,
+.page-navigation-container ul li:first-child a:visited:active,
+.page-navigation-container ul li:first-child a:visited:focus {
+  color: transparent !important;
+}
+.page-navigation-container ul li:first-child:after {
+  content: "";
+  background: transparent url("https://2020.greenville.wordcamp.org/files/2019/10/20.png") center no-repeat;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+.page-navigation-container ul li:first-child.current-menu-item {
+  border: none;
 }
 
 .page-navigation-container ul ul {
@@ -458,6 +512,7 @@ a.cta-button:focus {
 
   .page-navigation-container a {
     padding: 10px !important;
+    text-align: center;
   }
 
   .page-navigation-container ul ul {
@@ -505,10 +560,7 @@ a.cta-button:focus {
   }
 
   .custom-header .wp-custom-header {
-    -webkit-clip-path: inset(25% 62% 25% 0%);
-    clip-path: inset(25% 62% 25% 0%);
-    position: relative;
-    transform: scale(1.8) translate(32%, 5%);
+    padding-top: 90px;
   }
 }
 .widget {
@@ -868,6 +920,21 @@ a.cta-button:focus {
   max-width: 900px;
   margin: 0 auto;
 }
+.page .site-main {
+  background-color: transparent;
+  max-width: 100%;
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+  margin: 0;
+  padding: 25px 50px;
+}
+
+.site-main .posts-navigation {
+  border-top: 1px solid #e2f4ff;
+}
 
 .site-footer {
   background: #272c52 url("https://2020.greenville.wordcamp.org/files/2019/10/skyline.jpg") center -70px no-repeat;
@@ -880,6 +947,9 @@ a.cta-button:focus {
 
 .site-main .hentry {
   padding: 0 50px 60px;
+}
+.page .site-main .hentry {
+  padding: 0;
 }
 
 .hentry {
@@ -897,6 +967,9 @@ a.cta-button:focus {
 .entry-header {
   border-top: 1px solid #e2f4ff;
   text-align: center;
+}
+.page .entry-header {
+  border-top: none;
 }
 
 .entry-header,
@@ -921,11 +994,23 @@ body.single .entry-footer .byline {
   margin-left: 4px;
 }
 
+.posted-on {
+  opacity: 0.5;
+}
+.posted-on a {
+  color: #272c52;
+}
+
 .entry-title {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   color: #2d7ac3;
   font-weight: 900;
-  line-height: 1.1;
+}
+.page .entry-title {
+  background-color: #115591;
+  color: #fff;
+  margin: 0;
+  padding: 40px 0;
 }
 
 .entry-summary {
@@ -934,6 +1019,28 @@ body.single .entry-footer .byline {
 
 .entry-content {
   margin: 20px 0 0;
+}
+
+.single .entry-content,
+.single .entry-footer,
+.single .comments-area,
+.page .entry-content,
+.page .entry-footer,
+.page .comments-area {
+  background-color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 50px 60px;
+  padding: 0 50px;
+}
+.single .entry-content,
+.page .entry-content {
+  padding-top: 40px;
+}
+.single .comments-area,
+.page .comments-area {
+  padding-top: 25px;
+  padding-bottom: 60px;
 }
 
 .post-navigation {

@@ -12,7 +12,7 @@ body {
 	font-family: "proxima-nova", sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
-	line-height: 1.55;
+	line-height: 1.5;
 }
 
 button,
@@ -29,7 +29,9 @@ h4,
 h5,
 h6 {
 	clear: none;
+	color: $color-accent-mid;
 	font-family: "freight-sans-condensed-pro", sans-serif;
+	line-height: 1.2;
 }
 
 .wp-block-separator,
@@ -72,30 +74,37 @@ a:visited:focus {
 }
 
 .entry-title {
-	font-size: 56px;
-	font-size: 5.6rem;
+	font-size: 4rem;
 }
 
-.entry-content h1,
-.entry-content h2 {
-	margin: 30px 0 15px;
-	line-height: 1.32143;
-}
+// .entry-content h1,
+// .entry-content h2 {
+// margin: 30px 0 15px;
+// }
 
+h1,
 .entry-content h1 {
-	font-size: 56px;
-	font-size: 5.6rem;
+	font-size: 4rem;
 }
-
+h2,
 .entry-content h2 {
-	font-size: 42px;
-	font-size: 4.2rem;
+	font-size: 3.6rem;
 }
-
+h3,
 .entry-content h3 {
-	font-size: 28px;
-	font-size: 2.8rem;
-	line-height: 1.2;
+	font-size: 3.3rem;
+}
+h4,
+.entry-content h4 {
+	font-size: 3.1rem;
+}
+h5,
+.entry-content h5 {
+	font-size: 2.9rem;
+}
+h6,
+.entry-content h6 {
+	font-size: 2.7rem;
 }
 
 input[type="text"],
@@ -320,7 +329,9 @@ a.cta-button:focus {
 	position: relative;
 }
 .page-navigation-container .current-menu-item {
-	border-bottom: 7px solid $color-accent-light-mid;
+	@media screen and (min-width: 37.5em) {
+		border-bottom: 7px solid $color-accent-light-mid;
+	}
 
 	a {
 		color: $color-accent-light-mid;
@@ -343,6 +354,52 @@ a.cta-button:focus {
 .page-navigation-container li.focus a {
 	color: $color-text;
 	text-decoration: none;
+}
+.page-navigation-container.toggled-on ul {
+	padding: 15px 10px 10px;
+}
+.page-navigation-container ul {
+	@media screen and (min-width: 37.5em) {
+		display: flex;
+	}
+
+	li:first-child {
+		position: relative;
+
+		@media screen and (min-width: 37.5em) {
+			margin-right: auto;
+		}
+
+		a,
+		a:link,
+		a:hover,
+		a:active,
+		a:focus,
+		a:visited,
+		a:visited:hover,
+		a:visited:active,
+		a:visited:focus {
+			color: transparent !important;
+		}
+
+		&:after {
+			content: "";
+			background: transparent
+				url("https://2020.greenville.wordcamp.org/files/2019/10/20.png")
+				center no-repeat;
+			pointer-events: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-size: contain;
+		}
+
+		&.current-menu-item {
+			border: none;
+		}
+	}
 }
 .page-navigation-container ul ul {
 	top: 78px;
@@ -423,6 +480,7 @@ a.cta-button:focus {
 	}
 	.page-navigation-container a {
 		padding: 10px !important;
+		text-align: center;
 	}
 	.page-navigation-container ul ul {
 		display: block;
@@ -466,10 +524,7 @@ a.cta-button:focus {
 		overflow-x: hidden;
 	}
 	.custom-header .wp-custom-header {
-		-webkit-clip-path: inset(25% 62% 25% 0%);
-		clip-path: inset(25% 62% 25% 0%);
-		position: relative;
-		transform: scale(1.8) translate(32%, 5%);
+		padding-top: 90px;
 	}
 }
 
@@ -803,7 +858,23 @@ a.cta-button:focus {
 	max-width: 900px;
 	// max-width: 1170px;
 	margin: 0 auto;
+
+	.page & {
+		background-color: transparent;
+		max-width: 100%;
+	}
 }
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0;
+	padding: 25px 50px;
+}
+.site-main .posts-navigation {
+	border-top: 1px solid $color-accent-light;
+}
+
 .site-footer {
 	background: $color-accent-dark
 		url("https://2020.greenville.wordcamp.org/files/2019/10/skyline.jpg")
@@ -818,6 +889,10 @@ a.cta-button:focus {
 
 .site-main .hentry {
 	padding: 0 50px 60px;
+
+	.page & {
+		padding: 0;
+	}
 }
 
 .hentry {
@@ -839,6 +914,10 @@ a.cta-button:focus {
 .entry-header {
 	border-top: 1px solid $color-accent-light;
 	text-align: center;
+
+	.page & {
+		border-top: none;
+	}
 }
 .entry-header,
 .entry-footer {
@@ -859,12 +938,26 @@ body.single .entry-footer .byline {
 	margin-left: 4px;
 }
 
+.posted-on {
+	opacity: 0.5;
+
+	a {
+		color: $color-text;
+	}
+}
+
 .entry-title {
 	// margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 	color: $color-accent;
 	font-weight: 900;
-	line-height: 1.1;
+
+	.page & {
+		background-color: $color-accent-mid;
+		color: $color-white;
+		margin: 0;
+		padding: 40px 0;
+	}
 }
 
 .entry-summary {
@@ -873,6 +966,22 @@ body.single .entry-footer .byline {
 
 .entry-content {
 	margin: 20px 0 0;
+}
+
+.single,
+.page {
+	.entry-content,
+	.entry-footer,
+	.comments-area {
+		@include content-styles;
+	}
+	.entry-content {
+		padding-top: 40px;
+	}
+	.comments-area {
+		padding-top: 25px;
+		padding-bottom: 60px;
+	}
 }
 
 .post-navigation {

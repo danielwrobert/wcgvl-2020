@@ -1,0 +1,8 @@
+// Mixins
+@mixin content-styles {
+	background-color: $color-white;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 40px 50px 60px;
+	padding: 0 50px;
+}
