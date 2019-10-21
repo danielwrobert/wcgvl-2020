@@ -932,12 +932,14 @@ a.cta-button:focus {
 }
 
 .entry-header {
-	border-top: 1px solid $color-accent-light;
 	text-align: center;
 
 	.page & {
 		border-top: none;
 	}
+}
+article + article .entry-header {
+	border-top: 1px solid $color-accent-light;
 }
 .entry-header,
 .entry-footer {
@@ -967,10 +969,11 @@ body.single .entry-footer .byline {
 }
 
 .entry-title {
-	// margin-top: 0;
-	margin-bottom: 8px;
 	color: $color-accent;
 	font-weight: 900;
+	// margin-top: 0;
+	margin: 0 0 8px;
+	padding-top: 33px;
 
 	.page & {
 		background-color: $color-accent-mid;

@@ -983,11 +983,14 @@ a.cta-button:focus {
 }
 
 .entry-header {
-  border-top: 1px solid #e2f4ff;
   text-align: center;
 }
 .page .entry-header {
   border-top: none;
+}
+
+article + article .entry-header {
+  border-top: 1px solid #e2f4ff;
 }
 
 .entry-header,
@@ -1020,9 +1023,10 @@ body.single .entry-footer .byline {
 }
 
 .entry-title {
-  margin-bottom: 8px;
   color: #2d7ac3;
   font-weight: 900;
+  margin: 0 0 8px;
+  padding-top: 33px;
 }
 .page .entry-title {
   background-color: #115591;
