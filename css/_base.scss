@@ -318,6 +318,22 @@ a.cta-button:focus {
 	text-align: left;
 }
 
+.blog .site-header {
+	position: relative;
+
+	&:after {
+		content: "NEWS";
+		text-align: center;
+		display: block;
+		color: #fff;
+		background-color: #115591;
+		padding: 40px 0;
+		font-size: 4rem;
+		line-height: 1.2;
+		font-weight: 900;
+	}
+}
+
 .page-navigation-container {
 	position: relative;
 	z-index: 1;
@@ -852,6 +868,10 @@ a.cta-button:focus {
 		url("https://2020.greenville.wordcamp.org/files/2019/10/Digital-on-Light-Blue.png")
 		right top no-repeat;
 	background-size: 15%;
+
+	.page & {
+		background-position: right 128px;
+	}
 }
 .site-main {
 	background-color: $color-white;
