@@ -374,7 +374,7 @@ a.cta-button:focus {
 .page-navigation-container.toggled-on ul {
 	padding: 15px 10px 10px;
 }
-.page-navigation-container ul {
+.page-navigation-container ul:not(.sub-menu) {
 	@media screen and (min-width: 37.5em) {
 		display: flex;
 	}

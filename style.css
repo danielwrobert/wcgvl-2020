@@ -398,7 +398,7 @@ a.cta-button:focus {
 }
 
 @media screen and (min-width: 37.5em) {
-  .page-navigation-container ul {
+  .page-navigation-container ul:not(.sub-menu) {
     display: flex;
   }
 }
