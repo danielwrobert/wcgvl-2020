@@ -380,7 +380,7 @@ a.cta-button:focus {
 	}
 }
 
-.page-navigation-container > ul {
+.page-navigation-container ul:not(.sub-menu) {
 	li:first-child {
 		position: relative;
 
