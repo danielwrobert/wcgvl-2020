@@ -451,16 +451,7 @@ a.cta-button:focus {
 
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
-  color: #272c52;
-  margin-left: -15px;
-}
-
-.page-navigation-container ul ul li:hover a:before,
-.page-navigation-container ul ul li.focus a:before {
-  display: inline-block;
-  content: "●";
-  width: 13px;
-  margin-right: 2px;
+  color: #3c99de;
 }
 
 .page-navigation-container .callout {

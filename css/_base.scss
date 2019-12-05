@@ -431,15 +431,7 @@ a.cta-button:focus {
 }
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
-	color: $color-text;
-	margin-left: -15px;
-}
-.page-navigation-container ul ul li:hover a:before,
-.page-navigation-container ul ul li.focus a:before {
-	display: inline-block;
-	content: "\25cf";
-	width: 13px;
-	margin-right: 2px;
+	color: $color-accent-light-mid;
 }
 .page-navigation-container .callout {
 	position: absolute;
