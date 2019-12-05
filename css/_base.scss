@@ -378,8 +378,10 @@ a.cta-button:focus {
 	@media screen and (min-width: 37.5em) {
 		display: flex;
 	}
+}
 
-	&:not(.sub-menu) li:first-child {
+.page-navigation-container > ul {
+	li:first-child {
 		position: relative;
 
 		@media screen and (min-width: 37.5em) {
