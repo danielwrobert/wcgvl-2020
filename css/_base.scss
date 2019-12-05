@@ -380,8 +380,8 @@ a.cta-button:focus {
 	}
 }
 
-.menu-main-menu-container > ul {
-	li:first-child {
+.page-navigation-container ul:not(.sub-menu) {
+	> li:first-child {
 		position: relative;
 
 		@media screen and (min-width: 37.5em) {

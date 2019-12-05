@@ -403,26 +403,26 @@ a.cta-button:focus {
   }
 }
 
-.menu-main-menu-container > ul li:first-child {
+.page-navigation-container ul:not(.sub-menu) > li:first-child {
   position: relative;
 }
 @media screen and (min-width: 37.5em) {
-  .menu-main-menu-container > ul li:first-child {
+  .page-navigation-container ul:not(.sub-menu) > li:first-child {
     margin-right: auto;
   }
 }
-.menu-main-menu-container > ul li:first-child a,
-.menu-main-menu-container > ul li:first-child a:link,
-.menu-main-menu-container > ul li:first-child a:hover,
-.menu-main-menu-container > ul li:first-child a:active,
-.menu-main-menu-container > ul li:first-child a:focus,
-.menu-main-menu-container > ul li:first-child a:visited,
-.menu-main-menu-container > ul li:first-child a:visited:hover,
-.menu-main-menu-container > ul li:first-child a:visited:active,
-.menu-main-menu-container > ul li:first-child a:visited:focus {
+.page-navigation-container ul:not(.sub-menu) > li:first-child a,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:link,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:hover,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:active,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:focus,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:visited,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:visited:hover,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:visited:active,
+.page-navigation-container ul:not(.sub-menu) > li:first-child a:visited:focus {
   color: transparent !important;
 }
-.menu-main-menu-container > ul li:first-child:after {
+.page-navigation-container ul:not(.sub-menu) > li:first-child:after {
   content: "";
   background: transparent url("https://2020.greenville.wordcamp.org/files/2019/10/20.png") center no-repeat;
   pointer-events: none;
@@ -433,7 +433,7 @@ a.cta-button:focus {
   height: 100%;
   background-size: contain;
 }
-.menu-main-menu-container > ul li:first-child.current-menu-item {
+.page-navigation-container ul:not(.sub-menu) > li:first-child.current-menu-item {
   border: none;
 }
 
