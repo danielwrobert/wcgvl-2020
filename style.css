@@ -354,7 +354,6 @@ a.cta-button:focus {
 
 .page-navigation-container {
   position: relative;
-  z-index: 1;
   background: #fff;
 }
 
