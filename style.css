@@ -284,6 +284,10 @@ a.cta-button:focus {
   outline: 2px solid #272c52;
 }
 
+.site {
+  overflow: hidden;
+}
+
 .entry-content .wp-block-button__link {
   border-radius: 0;
   font-size: 28px;
@@ -864,7 +868,7 @@ a.cta-button:focus {
 }
 
 #footer-widget-1 {
-  padding: 20px 20px 80px;
+  padding: 80px 20px;
 }
 
 #footer-widget-1 .widget-title {
@@ -950,7 +954,6 @@ a.cta-button:focus {
   background: #272c52 url("https://2020.greenville.wordcamp.org/files/2019/10/skyline.jpg") center -70px no-repeat;
   background-size: cover;
   border-top: 11px solid #3c99de;
-  height: 425px;
   display: flex;
   flex-direction: column;
 }

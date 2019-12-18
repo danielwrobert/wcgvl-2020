@@ -815,7 +815,7 @@ a.cta-button:focus {
 }
 
 #footer-widget-1 {
-	padding: 20px 20px 80px;
+	padding: 80px 20px;
 }
 #footer-widget-1 .widget-title {
 	margin-top: 0;
@@ -898,9 +898,7 @@ a.cta-button:focus {
 		url("https://2020.greenville.wordcamp.org/files/2019/10/skyline.jpg")
 		center -70px no-repeat;
 	background-size: cover;
-	// padding-top: 150px;
 	border-top: 11px solid $color-accent-light-mid;
-	height: 425px;
 	display: flex;
 	flex-direction: column;
 }
